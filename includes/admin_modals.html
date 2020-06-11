@@ -1,0 +1,52 @@
+<!-- AuthModal -->
+<div class="modal fade" id="auth" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Вход администратора</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form method="POST" action="/users.php">
+              <div class="form-group">
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Пароль" required>
+                  <small id="passwordHelp" class="form-text text-muted">Введите пароль</small>
+              </div>
+              <hr>
+              <button type="submit" class="btn btn-outline-secondary">Войти</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ChangePasswordModal -->
+<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="changePasswordTitle">Смена пароля администратора</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="/users.php">
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="changePasswordInput" name="changePassword" placeholder="Пароль" required>
+                        <small id="changePasswordHelp" class="form-text text-muted">Введите новый пароль</small>
+                        <br>
+                        <input type="password" class="form-control" id="changePasswordConfirmInput" placeholder="Пароль" required>
+                        <small id="changePasswordConfirmHelp" class="form-text text-muted">Подтвердите пароль</small>
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-outline-secondary">Сменить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/vendor/js/modal.js"></script>

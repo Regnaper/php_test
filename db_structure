@@ -1,0 +1,26 @@
+- Users
+    - Id
+    - Name
+    - Post
+    - Rank
+    - Division
+- Questions
+    - Id
+    - Question
+    - First
+- Answers
+    - Id
+    - Answer
+    - Question_Id
+    - Right_Answer
+- Results
+    - Id
+    - Result
+    - Created_At
+    - User_Id
+    - Questions_Ids
+- Variables
+    - Id
+    - Name
+    - Value
+
