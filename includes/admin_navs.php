@@ -16,5 +16,5 @@
         <a class="nav-link <?php echo $results_nav; ?>" href="/results.php">Результаты</a>
     </li>
 </ul>
-<script src="/vendor/js/checkboxes.js"></script>
-<script src="/vendor/js/sorting.js"></script>
+<script src="/public/js/checkboxes.js"></script>
+<script src="/public/js/sorting.js"></script>

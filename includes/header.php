@@ -1,6 +1,6 @@
-<script src="/vendor/js/jquery-3.1.1.min.js"></script>
-<link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
-<script src="/vendor/js/bootstrap.min.js"></script>
+<script src="/public/js/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="/public/css/bootstrap.min.css">
+<script src="/public/js/bootstrap.min.js"></script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light d-print-none container">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">

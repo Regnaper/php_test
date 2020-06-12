@@ -51,7 +51,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <script src="/vendor/js/checkboxes.js"></script>
+    <script src="/public/js/checkboxes.js"></script>
     <title>Математика/Ответы</title>
 </head>
 

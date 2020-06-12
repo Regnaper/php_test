@@ -17,7 +17,7 @@ $users = mysqli_query($connection, "SELECT * FROM users ORDER BY `name`");
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <script src="vendor/js/checkboxes.js"></script>
+        <script src="public/js/checkboxes.js"></script>
         <title>Математика</title>
     </head>
 
