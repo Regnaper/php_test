@@ -19,6 +19,8 @@
         exit();
     }
 
+    mysqli_set_charset($connection, "utf8");
+
     // Переменные для проверки привилегий
     $admin_pages = ['/users.php', '/questions.php', '/results.php', '/answers.php'];
     $pos = strpos($_SERVER['REQUEST_URI'], "?");
